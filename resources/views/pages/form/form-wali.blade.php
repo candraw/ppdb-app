@@ -3,11 +3,11 @@
 <div id="layoutSidenav_content">
     <main>
         <div class="container-fluid px-4">
-            <h3 class="mt-4">Form Calon Wali Murid</h3>
-            <ol class="breadcrumb mb-4">
+            <h3 class="mt-4">Form Calon Wali Murid</h3><br>
+            <!-- <ol class="breadcrumb mb-4">
                 <li class="breadcrumb-item"><a href="index.html">Form Calon Wali Murid</a></li>
                 <li class="breadcrumb-item active">Data Wali Murid</li>
-            </ol>
+            </ol> -->
             <div class="card">
                 <div class="card-header">
                     <!-- <h6 class="card-title">Form Biodata Calon Wali Murid</h6> -->
@@ -18,35 +18,35 @@
                             <!-- Bagian Ayah -->
                             <div class="col-md-6">
                                 <div class="form-group mb-3 row">
-                                    <label for="nama_ayah" class="col-sm-4 col-form-label"><b>Nama Ayah</b></label>
+                                    <label for="nama_ayah" class="col-sm-4 col-form-label">Nama Ayah</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="nama_ayah" name="nama_ayah" placeholder="Masukkan nama ayah" required>
+                                        <input type="text" class="form-control" id="nama_ayah" name="nama_ayah" placeholder="Masukkan Nama Ayah" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="ttl_ayah" class="col-sm-4 col-form-label"><b>Tempat, Tanggal Lahir Ayah</b></label>
+                                    <label for="ttl_ayah" class="col-sm-4 col-form-label">Tempat & Tanggal Lahir</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="ttl_ayah" name="ttl_ayah" placeholder="Masukkan tempat, tanggal lahir ayah" required>
+                                        <input type="text" class="form-control" id="ttl_ayah" name="ttl_ayah" placeholder="Contoh : Tegal, 1 Januari 2000" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="agama_ayah" class="col-sm-4 col-form-label"><b>Agama</b></label>
+                                    <label for="agama_ayah" class="col-sm-4 col-form-label">Agama</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="agama_ayah" name="agama_ayah" placeholder="Masukkan agama ayah" required>
+                                        <input type="text" class="form-control" id="agama_ayah" name="agama_ayah" placeholder="Masukkan Agama Ayah" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="no_telp_ayah" class="col-sm-4 col-form-label"><b>Nomor Telepon Ayah</b></label>
+                                    <label for="no_telp_ayah" class="col-sm-4 col-form-label">Nomor Telepon Ayah</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="no_telp_ayah" name="no_telp_ayah" placeholder="Masukkan nomor telepon ayah" required>
+                                        <input type="text" class="form-control" id="no_telp_ayah" name="no_telp_ayah" placeholder="Nomor Telepon/WA Ayah" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="pendidikan_ayah" class="col-sm-4 col-form-label"><b>Pendidikan Ayah</b></label>
+                                    <label for="pendidikan_ayah" class="col-sm-4 col-form-label">Pendidikan Ayah</label>
                                     <div class="col-sm-8">
                                         <select class="form-control" id="pendidikan_ayah" name="pendidikan_ayah" required>
                                             <option value="">Pilih Pendidikan</option>
@@ -64,7 +64,7 @@
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="pekerjaan_ayah" class="col-sm-4 col-form-label"><b>Pekerjaan Ayah</b></label>
+                                    <label for="pekerjaan_ayah" class="col-sm-4 col-form-label">Pekerjaan Ayah</label>
                                     <div class="col-sm-8">
                                         <select class="form-control" id="pekerjaan_ayah" name="pekerjaan_ayah" required>
                                             <option value="">Pilih Pekerjaan</option>
@@ -78,7 +78,7 @@
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="gaji_ayah" class="col-sm-4 col-form-label"><b>Kisaran Gaji Ayah</b></label>
+                                    <label for="gaji_ayah" class="col-sm-4 col-form-label">Kisaran Gaji Ayah</label>
                                     <div class="col-sm-8">
                                         <select class="form-control" id="gaji_ayah" name="gaji_ayah" required>
                                             <option value="">Pilih Range Penghasilan</option>
@@ -93,7 +93,7 @@
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="alquran_ayah" class="col-sm-4 col-form-label"><b>Kemampuan Membaca Alqur'an Ayah</b></label>
+                                    <label for="alquran_ayah" class="col-sm-4 col-form-label">Kemampuan Membaca Al-Qur'an</label>
                                     <div class="col-sm-8">
                                         <select class="form-control" id="alquran_ayah" name="alquran_ayah" required>
                                             <option value="">Pilih Kemampuan</option>
@@ -106,16 +106,16 @@
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="organisasi_ayah" class="col-sm-4 col-form-label"><b>Organisasi yang Diikuti Ayah</b></label>
+                                    <label for="organisasi_ayah" class="col-sm-4 col-form-label">Organisasi/Majelis yang Diikuti</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="organisasi_ayah" name="organisasi_ayah" placeholder="Masukkan organisasi yang diikuti" required>
+                                        <input type="text" class="form-control" id="organisasi_ayah" name="organisasi_ayah" placeholder="Organisasi yang diikuti" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="buku_ayah" class="col-sm-4 col-form-label"><b>Buku/Majalah yang Dibaca Ayah</b></label>
+                                    <label for="buku_ayah" class="col-sm-4 col-form-label">Buku/Majalah yang Dibaca</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="buku_ayah" name="buku_ayah" placeholder="Masukkan buku atau majalah yang dibaca" required>
+                                        <input type="text" class="form-control" id="buku_ayah" name="buku_ayah" placeholder="Masukkan Buku/Majalah yang dibaca" required>
                                     </div>
                                 </div>
                             </div>
@@ -123,35 +123,35 @@
                             <!-- Bagian Ibu -->
                             <div class="col-md-6">
                                 <div class="form-group mb-3 row">
-                                    <label for="nama_ibu" class="col-sm-4 col-form-label"><b>Nama Ibu</b></label>
+                                    <label for="nama_ibu" class="col-sm-4 col-form-label">Nama Ibu</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="nama_ibu" name="nama_ibu" placeholder="Masukkan nama ibu" required>
+                                        <input type="text" class="form-control" id="nama_ibu" name="nama_ibu" placeholder="Masukkan Nama Ibu" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="ttl_ibu" class="col-sm-4 col-form-label"><b>Tempat, Tanggal Lahir Ibu</b></label>
+                                    <label for="ttl_ibu" class="col-sm-4 col-form-label">Tempat & Tanggal Lahir</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="ttl_ibu" name="ttl_ibu" placeholder="Masukkan tempat, tanggal lahir ibu" required>
+                                        <input type="text" class="form-control" id="ttl_ibu" name="ttl_ibu" placeholder="Contoh : Tegal, 1 Januari 2000" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="agama_ibu" class="col-sm-4 col-form-label"><b>Agama</b></label>
+                                    <label for="agama_ibu" class="col-sm-4 col-form-label">Agama</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="agama_ibu" name="agama_ibu" placeholder="Masukkan agama ibu" required>
+                                        <input type="text" class="form-control" id="agama_ibu" name="agama_ibu" placeholder="Masukkan Agama Ibu" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="no_telp_ibu" class="col-sm-4 col-form-label"><b>Nomor Telepon Ibu</b></label>
+                                    <label for="no_telp_ibu" class="col-sm-4 col-form-label">Nomor Telepon Ibu</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="no_telp_ibu" name="no_telp_ibu" placeholder="Masukkan nomor telepon ibu" required>
+                                        <input type="text" class="form-control" id="no_telp_ibu" name="no_telp_ibu" placeholder="Nomor Telepon/WA Ibu" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="pendidikan_ibu" class="col-sm-4 col-form-label"><b>Pendidikan Ibu</b></label>
+                                    <label for="pendidikan_ibu" class="col-sm-4 col-form-label">Pendidikan Ibu</label>
                                     <div class="col-sm-8">
                                         <select class="form-control" id="pendidikan_ibu" name="pendidikan_ibu" required>
                                             <option value="">Pilih Pendidikan</option>
@@ -169,7 +169,7 @@
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="pekerjaan_ibu" class="col-sm-4 col-form-label"><b>Pekerjaan Ibu</b></label>
+                                    <label for="pekerjaan_ibu" class="col-sm-4 col-form-label">Pekerjaan Ibu</label>
                                     <div class="col-sm-8">
                                         <select class="form-control" id="pekerjaan_ibu" name="pekerjaan_ibu" required>
                                             <option value="">Pilih Pekerjaan</option>
@@ -183,7 +183,7 @@
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="gaji_ibu" class="col-sm-4 col-form-label"><b>Kisaran Gaji Ibu</b></label>
+                                    <label for="gaji_ibu" class="col-sm-4 col-form-label">Kisaran Gaji Ibu</label>
                                     <div class="col-sm-8">
                                         <select class="form-control" id="gaji_ibu" name="gaji_ibu" required>
                                             <option value="">Pilih Range Penghasilan</option>
@@ -198,7 +198,7 @@
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="alquran_ibu" class="col-sm-4 col-form-label"><b>Kemampuan Membaca Alqur'an Ibu</b></label>
+                                    <label for="alquran_ibu" class="col-sm-4 col-form-label">Kemampuan Membaca Al-Qur'an Ibu</label>
                                     <div class="col-sm-8">
                                         <select class="form-control" id="alquran_ibu" name="alquran_ibu" required>
                                             <option value="">Pilih Kemampuan</option>
@@ -211,16 +211,16 @@
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="organisasi_ibu" class="col-sm-4 col-form-label"><b>Organisasi yang Diikuti Ibu</b></label>
+                                    <label for="organisasi_ibu" class="col-sm-4 col-form-label">Organisasi/Majelis yang Diikuti</label>
                                     <div class="col-sm-8">
                                         <input type="text" class="form-control" id="organisasi_ibu" name="organisasi_ibu" placeholder="Masukkan organisasi yang diikuti" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="buku_ibu" class="col-sm-4 col-form-label"><b>Buku/Majalah yang Dibaca Ibu</b></label>
+                                    <label for="buku_ibu" class="col-sm-4 col-form-label">Buku/Majalah yang Dibaca Ibu</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="buku_ibu" name="buku_ibu" placeholder="Masukkan buku atau majalah yang dibaca" required>
+                                        <input type="text" class="form-control" id="buku_ibu" name="buku_ibu" placeholder="Masukkan Buku/Majalah yang dibaca" required>
                                     </div>
                                 </div>
                             </div>

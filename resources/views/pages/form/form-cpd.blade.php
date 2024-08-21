@@ -3,11 +3,11 @@
 <div id="layoutSidenav_content">
     <main>
         <div class="container-fluid px-4">
-            <h3 class="mt-4">Form Calon Peserta Didik</h3>
-            <ol class="breadcrumb mb-4">
+            <h3 class="mt-4">Form Calon Peserta Didik</h3><br>
+            <!-- <ol class="breadcrumb mb-4">
                 <li class="breadcrumb-item"><a href="index.html">Form Calon Peserta didik</a></li>
                 <li class="breadcrumb-item active">Data Pendaftar</li>
-            </ol>
+            </ol> -->
             <div class="card">
                 <div class="card-header">
                     <!-- <h6 class="card-title">Form Biodata Calon Peserta Didik</h6> -->
@@ -17,28 +17,28 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group mb-3 row">
-                                    <label for="nisn" class="col-sm-4 col-form-label"><b>NISN</b></label>
+                                    <label for="nisn" class="col-sm-4 col-form-label">NISN</label>
                                     <div class="col-sm-8">
                                         <input type="text" class="form-control" id="nisn" name="nisn" placeholder="Masukkan NISN" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="nama" class="col-sm-4 col-form-label"><b>Nama Lengkap</b></label>
+                                    <label for="nama" class="col-sm-4 col-form-label">Nama Lengkap</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+                                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama lengkap sesuai KK/Akta" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="ttl" class="col-sm-4 col-form-label"><b>Tempat, Tanggal Lahir</b></label>
+                                    <label for="ttl" class="col-sm-4 col-form-label">Tempat & Tanggal Lahir</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="ttl" name="ttl" placeholder="Masukkan tempat, tanggal lahir" required>
+                                        <input type="text" class="form-control" id="ttl" name="ttl" placeholder="Cth : Tegal, 1 Januari 2000" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="jenis_kelamin" class="col-sm-4 col-form-label"><b>Jenis Kelamin</b></label>
+                                    <label for="jenis_kelamin" class="col-sm-4 col-form-label">Jenis Kelamin</label>
                                     <div class="col-sm-8">
                                         <select class="form-control" id="jenis_kelamin" name="jenis_kelamin" required>
                                             <option value="">Pilih Jenis Kelamin</option>
@@ -49,73 +49,73 @@
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="agama" class="col-sm-4 col-form-label"><b>Agama</b></label>
+                                    <label for="agama" class="col-sm-4 col-form-label">Agama</label>
                                     <div class="col-sm-8">
                                         <input type="text" class="form-control" id="agama" name="agama" placeholder="Masukkan agama" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="notelp" class="col-sm-4 col-form-label"><b>Nomor Telepon/HP/Wa</b></label>
+                                    <label for="notelp" class="col-sm-4 col-form-label">Nomor Telepon/Wa</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="notelp" name="notelp" placeholder="Nomor Telepon Siswa" required>
+                                        <input type="text" class="form-control" id="notelp" name="notelp" placeholder="Nomor Telepon/WA" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="anak_ke" class="col-sm-4 col-form-label"><b>Anak ke Berapa</b></label>
+                                    <label for="anak_ke" class="col-sm-4 col-form-label">Anak ke</label>
                                     <div class="col-sm-8">
-                                        <input type="number" class="form-control" id="anak_ke" name="anak_ke" placeholder="Masukkan urutan anak" required>
+                                        <input type="number" class="form-control" id="anak_ke" name="anak_ke" placeholder="Anak Ke Berapa ?" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group mb-3 row">
-                                    <label for="dari" class="col-sm-4 col-form-label"><b>Dari berapa bersaudara</b></label>
+                                    <label for="dari" class="col-sm-4 col-form-label">Jumlah Saudara</label>
                                     <div class="col-sm-8">
-                                        <input type="number" class="form-control" id="dari" name="dari" placeholder="Dari berapa bersaudara" required>
+                                        <input type="number" class="form-control" id="jml" name="jml" placeholder="Berapa Bersaudara ?" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="alamat" class="col-sm-4 col-form-label"><b>Alamat Lengkap</b></label>
+                                    <label for="alamat" class="col-sm-4 col-form-label">Alamat Lengkap</label>
                                     <div class="col-sm-8">
-                                        <textarea class="form-control" id="alamat" name="alamat" rows="3" placeholder="Masukkan alamat lengkap" required></textarea>
+                                        <input type="text" class="form-control" id="alamat" name="alamat" placeholder="Masukkan Nama Jalan, Gang, Nomor Rumah" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="rt" class="col-sm-4 col-form-label"><b>RT</b></label>
+                                    <label for="rt" class="col-sm-4 col-form-label">RT</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="rt" name="rt" placeholder="Masukkan RT" required>
+                                        <input type="text" class="form-control" id="rt" name="rt" placeholder="Contoh: 012" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="rw" class="col-sm-4 col-form-label"><b>RW</b></label>
+                                    <label for="rw" class="col-sm-4 col-form-label">RW</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="rw" name="rw" placeholder="Masukkan RW" required>
+                                        <input type="text" class="form-control" id="rw" name="rw" placeholder="Contoh: 013" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="kelurahan" class="col-sm-4 col-form-label"><b>Kelurahan</b></label>
+                                    <label for="kelurahan" class="col-sm-4 col-form-label">Kelurahan</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="kelurahan" name="kelurahan" placeholder="Masukkan kelurahan" required>
+                                        <input type="text" class="form-control" id="kelurahan" name="kelurahan" placeholder="Masukkan Kelurahan" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="kecamatan" class="col-sm-4 col-form-label"><b>Kecamatan</b></label>
+                                    <label for="kecamatan" class="col-sm-4 col-form-label">Kecamatan</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="kecamatan" name="kecamatan" placeholder="Masukkan kecamatan" required>
+                                        <input type="text" class="form-control" id="kecamatan" name="kecamatan" placeholder="Masukkan Kecamatan" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3 row">
-                                    <label for="kota_kabupaten" class="col-sm-4 col-form-label"><b>Kota/Kabupaten</b></label>
+                                    <label for="kota_kabupaten" class="col-sm-4 col-form-label">Kota/Kabupaten</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" id="kota_kabupaten" name="kota_kabupaten" placeholder="Masukkan kota/kabupaten" required>
+                                        <input type="text" class="form-control" id="kota_kabupaten" name="kota_kabupaten" placeholder="Masukkan Kota/Kabupaten" required>
                                     </div>
                                 </div>
                             </div>
